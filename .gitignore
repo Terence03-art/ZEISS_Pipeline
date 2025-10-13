@@ -1,0 +1,9 @@
+ECHO is on.
+# Data and environment
+*.xlsx
+/data/
+/*.ipynb_checkpoints
+__pycache__/
+/venv/
+/.env
+
