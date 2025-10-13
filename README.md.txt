@@ -6,9 +6,9 @@ This project investigates differences in Psl exopolysaccharide intensity among t
 
 ## 🔬 Project Files
 
-- [📄 Project Portfolio (1-page PDF summary)](project_portfolio.pdf)
-- [📘 Full Jupyter Notebook (code + plots)](analysis_notebook.ipynb)
-- [📊 Figures directory](figures/)
+- [📄 Project Portfolio (1-page PDF summary)](https://github.com/Terence03-art/ZEISS_Pipeline/blob/main/notebooks/T_Makuvise%20MSc%20Research_Portfolio.pdf)
+- [📘 Full Jupyter Notebook (code + plots)](https://github.com/Terence03-art/ZEISS_Pipeline/blob/main/notebooks/analysis%20notebook.ipynb)
+- [📊 Figures directory](https://github.com/Terence03-art/ZEISS_Pipeline/tree/main/figures)
 
 ---
 
