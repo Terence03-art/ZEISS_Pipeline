@@ -1,0 +1,51 @@
+{
+  "analysis_name": "PSL Intensity Analysis",
+  "author": "Terence Makuvise",
+  "date": "2025-12-03 12:42:10",
+  "data_file": "psl_data.csv",
+  "total_observations": 24,
+  "total_subjects": 12,
+  "genotypes": [
+    "A",
+    "B",
+    "C"
+  ],
+  "sites": [
+    "infection",
+    "distant"
+  ],
+  "variables": {
+    "dependent": "psl_intensity",
+    "between": "genotype",
+    "within": "site",
+    "subject": "subject_id"
+  },
+  "statistical_tests": {
+    "one_way_anova": true,
+    "tukey_hsd": true,
+    "mixed_anova": true,
+    "pairwise_comparisons": true,
+    "assumptions_checking": true
+  },
+  "output_files": {
+    "visualizations": [
+      "figures/psl_main_effects.png",
+      "figures/psl_comprehensive_dashboard.png",
+      "figures/psl_by_site_boxplots.png",
+      "figures/psl_genotype_comparisons.png",
+      "figures/psl_paired_subjects.png"
+    ],
+    "tables": [
+      "figures/pairwise_genotype_site_results.csv",
+      "figures/mixed_anova_results.csv",
+      "figures/statistical_assumptions.csv",
+      "figures/anova_infection.csv",
+      "figures/anova_distant.csv",
+      "figures/descriptive_statistics.csv",
+      "figures/psl_analysis_tables.xlsx"
+    ],
+    "summary": [
+      "figures/descriptive_stats_latex.txt"
+    ]
+  }
+}

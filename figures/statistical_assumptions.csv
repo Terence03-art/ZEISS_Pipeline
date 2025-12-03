@@ -1,0 +1,7 @@
+Site,Genotype,W,p,Normal
+infection,A,0.9875,0.9441,True
+infection,B,0.9844,0.9273,True
+infection,C,0.7671,0.0551,True
+distant,A,0.8443,0.2082,True
+distant,B,0.9802,0.9031,True
+distant,C,0.9696,0.839,True
